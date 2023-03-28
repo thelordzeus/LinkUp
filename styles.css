@@ -5,6 +5,18 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background: #000;
+  background-size: cover;
+}
+
+main {
+  position: relative;
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
+
 header {
   margin-top: 1em;
   text-align: center;
@@ -60,3 +72,4 @@ a {
   text-decoration: none;
   color: #000;
 }
+
